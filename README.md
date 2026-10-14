@@ -1,3 +1,10 @@
+> **iFixit fork.** This fork exists so iFixit can install this library alongside
+> guzzlehttp/psr7 3 (needed by Guzzle 8) before upstream allows it. Its `main` is
+> upstream `main` plus the change in
+> [asimlqt/netsuite-rest-api-php#5](https://github.com/asimlqt/netsuite-rest-api-php/pull/5).
+> Once that PR is merged and released, switch iFixit back to the upstream package
+> on Packagist and delete this fork.
+
 # netsuite-rest-api-php
 
 ## Requirements
